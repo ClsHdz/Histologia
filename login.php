@@ -17,11 +17,11 @@
             require 'menu_inicio.php';
             }
             else{
-                require 'mensaje_error';
+                require 'index.php';
             }
     }
     else{
-        require 'mensaje_error';
+        require 'index.php';
     }
         ?>
 ?>
