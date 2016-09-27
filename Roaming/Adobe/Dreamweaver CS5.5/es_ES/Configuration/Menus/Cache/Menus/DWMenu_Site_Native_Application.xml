@@ -1,6 +1,0 @@
-﻿<menus xmlns:MMString="http://www.macromedia.com/schemes/data/string/">
-<menuitem name="_Configurar framework de aplicación..." file="NativeAppFramework/NativeAppFrameworkSetup.htm" enabled="true" id="DWMenu_Site_NAF_ConfigureFramework" />
-<separator />
-<menuitem name="Configuración de _aplicación..." file="NativeAppFramework/NativeAppSetup.htm" enabled="dw.nativeAppFramework.hasAppFWSettings();" id="DWMenu_Site_NAF_ConfigureApplication" />
-<menu name="_Crear" id="DWMenu_Site_NAF_Build"></menu>
-<menu name="Crear y _emular" id="DWMenu_Site_NAF_Emulate"></menu>
