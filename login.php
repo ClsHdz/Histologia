@@ -1,7 +1,7 @@
 <?php
     include ('funciones.php');
     $mysqli = conectaBBDD();
-    
+    //
     $usuario_nombre = $_POST['usuario_nombre'];
     $usuario_clave = $_POST['usuario_clave'];
     
