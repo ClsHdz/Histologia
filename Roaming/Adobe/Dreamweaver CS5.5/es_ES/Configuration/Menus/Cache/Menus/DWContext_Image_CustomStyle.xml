@@ -1,0 +1,6 @@
+﻿<menus xmlns:MMString="http://www.macromedia.com/schemes/data/string/">
+<menuitem name="(ninguno)" file="Menus/MM/Text_CustomStyles.htm" id="DWContext_Image_CustomStyle_Default" dynamic="true" />
+<separator />
+<menuitem name="_Nuevo..." command="dw.cssStylePalette.newStyle()" enabled="(dw.getFocus() == 'document' || dw.getFocus() == 'textView' || dw.getFocus(true) == 'html') && dw.getDocumentDOM() != null && (dw.getDocumentDOM().getParseMode() == 'html'||dw.getDocumentDOM().getParseMode() == 'css')" id="DWContext_Image_CustomStyle_New" />
+<menuitem name="Ad_juntar hoja de estilos..." command="dw.cssStylePalette.attachStyleSheet()" enabled="dw.getDocumentDOM() != null && (dw.getFocus() == 'document' || dw.getFocus() == 'textView' || dw.getFocus(true) == 'html' || (dw.getFocus() == 'browser' && dw.getDocumentDOM().getDesignViewMode() == 'live')) && (dw.getDocumentDOM().getParseMode() == 'html'||dw.getDocumentDOM().getParseMode() == 'css')" id="DWContext_Image_CustomStyle_Attach" />
+<menuitem name="_Tiempo de diseño..." file="Commands/Design Time Style Sheets.htm" id="DWContext_Image_CustomStyle_IncludeExclude" />
