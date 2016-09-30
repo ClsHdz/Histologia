@@ -19,7 +19,8 @@ SET time_zone = "+00:00";
 --
 -- Base de datos: `histologia`
 --
-
+CREATE DATABASE `histologia`;
+USE `histologia`;
 -- --------------------------------------------------------
 
 --
